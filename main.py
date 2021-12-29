@@ -4,18 +4,10 @@ import streamlit as st
 import streamlit_authenticator as stauth
 import pandas as pd
 import numpy as np
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.metrics import confusion_matrix
-from sklearn.neighbors import KNeighborsClassifier
-import lightgbm as lgb
 import pickle
 import time
 import datetime as dt
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
 import os
-import pymongo
 import urllib.parse
 import random as rnd
 from io import BytesIO
