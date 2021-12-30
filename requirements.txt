@@ -6,3 +6,4 @@ joblib
 pyxlsb
 xlsxwriter
 scikit-learn
+lightgbm
