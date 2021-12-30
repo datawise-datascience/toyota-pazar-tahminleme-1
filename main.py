@@ -8,6 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 import pickle
 import time
+import lightgbm as lgb
 import datetime as dt
 import os
 import urllib.parse
